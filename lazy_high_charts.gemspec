@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files  = [ "README.md", "CHANGELOG.md" ]
   s.rdoc_options      = [ "--charset=UTF-8" ]
 
-  s.required_rubygems_version = "~> 1.3"
+  s.required_rubygems_version = ">= 1.3"
 
   s.add_dependency "bundler", "~> 1.0"
 
@@ -30,6 +30,6 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files`.split("\n")
   s.executables = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
-  s.require_path = 'lib'  
+  s.require_path = 'lib'
 
 end
